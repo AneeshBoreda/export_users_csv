@@ -4,8 +4,7 @@ Version: *1.0*
 Author: *Eddie Beuerlein*
 
 ### Summary
-This script will create a csv file that contains information of all your active servers. Including server group name, server hostname, server os type, server
-os version, ec2 instance id and list of softwares on the server.
+This script will create a csv file that contains the user data from the configuration section of the RedLock UI.
 
 ### Requirements and Dependencies
 
