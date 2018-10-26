@@ -12,6 +12,18 @@ This script will create a csv file that contains the user data from the configur
 
 2. OpenSSL 1.0.2 or newer
 
+(if using on Mac OS, additional items may be nessessary.)
+3. Pip 
+
+```sudo easy_install pip```
+
+4. Requests (Python library)
+
+```sudo pip install requests```
+
+5. YAML (Python library)
+```sudo pip install pyyaml```
+
 ### Configuration
 
 1. Navigate to *export_users_csv/config/configs.yml*
