@@ -13,4 +13,5 @@ class ConfigHelper(object):
     @classmethod
     def read_yml(self, f):
         yml_path = os.path.join(os.path.dirname(__file__), "../config/%s.yml" % f)
-        return yaml.load(file(yml_path, 'r'))
+        with open(yml_path,'r') as stream:
+            return yaml.safe_load(stream)

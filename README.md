@@ -8,7 +8,7 @@ This script will create a csv file that contains the user data from the configur
 
 ### Requirements and Dependencies
 
-1. Python 2.7.10 or newer
+1. Python 3.7 or newer
 
 2. OpenSSL 1.0.2 or newer
 
