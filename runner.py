@@ -5,7 +5,7 @@ class UserExport():
     def __init__(self):
         self.config = lib.ConfigHelper()
         self.csv_writer = lib.CsvWriter()
-        self.rl_sess = lib.RLSession(self.config.rl_user,self.config.rl_pass,self.config.rl_cust)
+        self.rl_sess = lib.RLSession(self.config.rl_user,self.config.rl_pass,self.config.rl_cust,self.config.rl_api_base)
         self.output = [["displayName", "email", "enabled", "firstName", "lastName", "roleType"]]
 
     def build(self):

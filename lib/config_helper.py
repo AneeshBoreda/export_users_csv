@@ -8,6 +8,7 @@ class ConfigHelper(object):
         self.rl_user = config["redlock"]["username"]
         self.rl_pass = config["redlock"]["password"]
         self.rl_cust = config["redlock"]["customer_name"]
+        self.rl_api_base = config["redlock"]["api_base"]
 
 
     @classmethod
